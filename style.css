@@ -1,34 +1,121 @@
-.banner{
-    width: 100%;
-    background-color:rgb(47, 103, 175);
-      background-repeat: repeat-x;
+*{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
 }
 
-.logo{
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(44, 42, 42);
+}
+
+/* header section */
+header {
+    height: 130px;
+    background-image: url(../img/pattern.png);
+    background-color: #0099ff;
+    background-size: 38%;
+    background-position: 67px 0;
+}
+
+.Logo{
+    width: 20%;
+    padding: 20px;
+    padding-top: 55px;
+}
+
+/* body section */
+
+p{
+    margin: 20px 0;
+}
+
+/* Title and img section */
+.Title{
+    font-size: 47px;
+    margin: 10px 0px;
+}
+
+.Author{
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Booleaner{
+    color: #0099ff;
+}
+
+.Tim_1{
+    width: 400px;
+}
+.Tim_2{
+    width: 342px;
+}
+
+.info_img{
+    font-size: 13px;
+}
+
+/* text section 1 */
+
+/* Highlighter text */
+.Highlighter{
+    background-color: #f0f922;
+}
+
+ul{
+    padding: 0 32px;
+    margin: 0 0 30px;
+}
+
+/* table section */
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+thead{
+    background-color: #0099ff;
+    color: white;
+}
+
+.row_1_3{
+    background-color: #0099ff9d;
+}
+
+.cell_1_2{
+    width: 25%;
+}
+.cell_3{
     width: 50%;
 }
 
-.iniziotabella{
-    background-color:rgb(45, 144, 224);
+/* footer  */
+.footer-title{
+    color: gray;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.suggestion{
+    width: 250px;
+    height: 180px;
+    background-size: cover;
     color: white;
-    
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 13px;
 }
 
-.sottolineato{
-background-color: yellow;
+#tip_1{
+    background-image: url(../img/monitor.jpg);
 }
-
-
-.grigio{
-    color: grey;
-}
-
-
-.nomeUtente{
-    color: cornflowerblue;
-}
-
-
-.celestino{
-    background-color:lightskyblue;
+#tip_2{
+    background-image: url(../img/graph.jpg);
 }
